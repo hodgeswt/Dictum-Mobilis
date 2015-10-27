@@ -40,6 +40,7 @@ class ViewController: UIViewController {
                 // Search for nodes by CSS
                 for info in doc.css("pre") {
                     let inf = info.text!
+                    self.output!.text! = inf
                     print(inf)
                 }
             }
@@ -54,6 +55,7 @@ class ViewController: UIViewController {
                 // Search for nodes by CSS
                 for info in doc.css("pre") {
                     let inf = info.text!
+                    self.output!.text! = inf
                     print(inf)
                 }
             }
