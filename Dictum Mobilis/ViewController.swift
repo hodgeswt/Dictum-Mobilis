@@ -62,14 +62,6 @@ class ViewController: UIViewController {
         }
         task.resume()
     }
-    
-    /*
-    let url = NSURL(string: LATENGURL + latEng.text!)
-    let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
-        print(NSString(data: data!, encoding: NSUTF8StringEncoding))
-    }
-    task.resume()
-    */
 
 }
 
