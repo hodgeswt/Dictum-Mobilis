@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Enter a word above to see the output." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bbJ-Cb-nJf">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" text="Enter a word above to see the output." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bbJ-Cb-nJf">
                                 <rect key="frame" x="20" y="125" width="560" height="475"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -60,7 +60,9 @@
                             <constraint firstItem="bbJ-Cb-nJf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="0s7-1e-AUP"/>
                             <constraint firstItem="JGC-2R-9Cw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="42o-Xe-aan"/>
                             <constraint firstItem="bbJ-Cb-nJf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="4Oz-BE-blg"/>
+                            <constraint firstItem="JGC-2R-9Cw" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="87x-Cl-ewq"/>
                             <constraint firstItem="0Fi-VJ-IGN" firstAttribute="top" secondItem="JGC-2R-9Cw" secondAttribute="bottom" constant="16" id="8lb-jD-d0Z"/>
+                            <constraint firstItem="Qhm-vl-v5z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="3" id="8wL-Ja-2z8"/>
                             <constraint firstItem="0Fi-VJ-IGN" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="C5h-Q2-blu"/>
                             <constraint firstItem="Qhm-vl-v5z" firstAttribute="leading" secondItem="JGC-2R-9Cw" secondAttribute="trailing" constant="16" id="ODo-R3-elj"/>
                             <constraint firstItem="aY1-3B-BbU" firstAttribute="leading" secondItem="0Fi-VJ-IGN" secondAttribute="trailing" constant="16" id="RZg-dq-2s4"/>
@@ -73,6 +75,12 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bbJ-Cb-nJf" secondAttribute="bottom" id="qcl-oG-bIK"/>
                             <constraint firstItem="Qhm-vl-v5z" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="uZ2-BQ-Xqv"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="p50-jB-mTS"/>
+                                <exclude reference="uZ2-BQ-Xqv"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="engLat" destination="0Fi-VJ-IGN" id="rdY-qy-gsN"/>

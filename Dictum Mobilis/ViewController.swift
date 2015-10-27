@@ -39,8 +39,9 @@ class ViewController: UIViewController {
             if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
                 for info in doc.css("pre") {
                     let inf = info.text!
+                    let formatChanges = inf.stringByReplacingOccurrencesOfString("\n", withString: "\n\n")
                     dispatch_async(dispatch_get_main_queue(), {
-                        self.output!.text! = inf
+                        self.output!.text! = formatChanges
                     })
                 }
             }
@@ -51,11 +52,12 @@ class ViewController: UIViewController {
         let url = NSURL(string: ENGLATURL + engLat.text!)
         engLat.text! = ""
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
-            if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) {
+            if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
                 for info in doc.css("pre") {
                     let inf = info.text!
-                    dispatch_async(dispatch_get_main_queue(), { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
-                        self.output!.text! = inf
+                    let formatChanges = inf.stringByReplacingOccurrencesOfString("\n", withString: "\n\n")
+                    dispatch_async(dispatch_get_main_queue(), {
+                        self.output!.text! = formatChanges
                     })
                 }
             }
