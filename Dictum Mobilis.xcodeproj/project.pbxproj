@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE49CEDF1BDFC338009EDFF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE49CEDE1BDFC338009EDFF3 /* AppDelegate.swift */; };
+		BE49CEE11BDFC338009EDFF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE49CEE01BDFC338009EDFF3 /* ViewController.swift */; };
+		BE49CEE41BDFC338009EDFF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE49CEE21BDFC338009EDFF3 /* Main.storyboard */; };
+		BE49CEE61BDFC338009EDFF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE49CEE51BDFC338009EDFF3 /* Assets.xcassets */; };
+		BE49CEE91BDFC338009EDFF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE49CEE71BDFC338009EDFF3 /* LaunchScreen.storyboard */; };
+		BED32F721BDFC834002598E2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BED32F701BDFC7CB002598E2 /* libxml2.tbd */; };
+		BED32F751BDFC8F1002598E2 /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED32F731BDFC8F1002598E2 /* CSS.swift */; };
+		BED32F761BDFC8F1002598E2 /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED32F741BDFC8F1002598E2 /* Kanna.swift */; };
+		BED32F7A1BDFC911002598E2 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED32F771BDFC911002598E2 /* libxmlHTMLDocument.swift */; };
+		BED32F7B1BDFC911002598E2 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED32F781BDFC911002598E2 /* libxmlHTMLNode.swift */; };
+		BED32F7C1BDFC911002598E2 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED32F791BDFC911002598E2 /* libxmlParserOption.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BE49CEDB1BDFC338009EDFF3 /* Dictum Mobilis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dictum Mobilis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE49CEDE1BDFC338009EDFF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE49CEE01BDFC338009EDFF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE49CEE31BDFC338009EDFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE49CEE51BDFC338009EDFF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE49CEE81BDFC338009EDFF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE49CEEA1BDFC338009EDFF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BED32F641BDFC765002598E2 /* Dictum Mobilis-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dictum Mobilis-Bridging-Header.h"; sourceTree = "<group>"; };
+		BED32F6E1BDFC7BE002598E2 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		BED32F701BDFC7CB002598E2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		BED32F731BDFC8F1002598E2 /* CSS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CSS.swift; sourceTree = "<group>"; };
+		BED32F741BDFC8F1002598E2 /* Kanna.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kanna.swift; sourceTree = "<group>"; };
+		BED32F771BDFC911002598E2 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		BED32F781BDFC911002598E2 /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		BED32F791BDFC911002598E2 /* libxmlParserOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = libxmlParserOption.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE49CED81BDFC338009EDFF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED32F721BDFC834002598E2 /* libxml2.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE49CED21BDFC338009EDFF3 = {
+			isa = PBXGroup;
+			children = (
+				BED32F701BDFC7CB002598E2 /* libxml2.tbd */,
+				BED32F6E1BDFC7BE002598E2 /* libxml2.2.tbd */,
+				BE49CEDD1BDFC338009EDFF3 /* Dictum Mobilis */,
+				BE49CEDC1BDFC338009EDFF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE49CEDC1BDFC338009EDFF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE49CEDB1BDFC338009EDFF3 /* Dictum Mobilis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE49CEDD1BDFC338009EDFF3 /* Dictum Mobilis */ = {
+			isa = PBXGroup;
+			children = (
+				BED32F731BDFC8F1002598E2 /* CSS.swift */,
+				BED32F741BDFC8F1002598E2 /* Kanna.swift */,
+				BED32F771BDFC911002598E2 /* libxmlHTMLDocument.swift */,
+				BED32F781BDFC911002598E2 /* libxmlHTMLNode.swift */,
+				BED32F791BDFC911002598E2 /* libxmlParserOption.swift */,
+				BE49CEDE1BDFC338009EDFF3 /* AppDelegate.swift */,
+				BE49CEE01BDFC338009EDFF3 /* ViewController.swift */,
+				BE49CEE21BDFC338009EDFF3 /* Main.storyboard */,
+				BE49CEE51BDFC338009EDFF3 /* Assets.xcassets */,
+				BE49CEE71BDFC338009EDFF3 /* LaunchScreen.storyboard */,
+				BE49CEEA1BDFC338009EDFF3 /* Info.plist */,
+				BED32F641BDFC765002598E2 /* Dictum Mobilis-Bridging-Header.h */,
+			);
+			path = "Dictum Mobilis";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE49CEDA1BDFC338009EDFF3 /* Dictum Mobilis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE49CEED1BDFC338009EDFF3 /* Build configuration list for PBXNativeTarget "Dictum Mobilis" */;
+			buildPhases = (
+				BE49CED71BDFC338009EDFF3 /* Sources */,
+				BE49CED81BDFC338009EDFF3 /* Frameworks */,
+				BE49CED91BDFC338009EDFF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dictum Mobilis";
+			productName = "Dictum Mobilis";
+			productReference = BE49CEDB1BDFC338009EDFF3 /* Dictum Mobilis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE49CED31BDFC338009EDFF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Will T Hodges";
+				TargetAttributes = {
+					BE49CEDA1BDFC338009EDFF3 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = BE49CED61BDFC338009EDFF3 /* Build configuration list for PBXProject "Dictum Mobilis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE49CED21BDFC338009EDFF3;
+			productRefGroup = BE49CEDC1BDFC338009EDFF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE49CEDA1BDFC338009EDFF3 /* Dictum Mobilis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE49CED91BDFC338009EDFF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE49CEE91BDFC338009EDFF3 /* LaunchScreen.storyboard in Resources */,
+				BE49CEE61BDFC338009EDFF3 /* Assets.xcassets in Resources */,
+				BE49CEE41BDFC338009EDFF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE49CED71BDFC338009EDFF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BED32F7B1BDFC911002598E2 /* libxmlHTMLNode.swift in Sources */,
+				BE49CEE11BDFC338009EDFF3 /* ViewController.swift in Sources */,
+				BE49CEDF1BDFC338009EDFF3 /* AppDelegate.swift in Sources */,
+				BED32F751BDFC8F1002598E2 /* CSS.swift in Sources */,
+				BED32F7A1BDFC911002598E2 /* libxmlHTMLDocument.swift in Sources */,
+				BED32F7C1BDFC911002598E2 /* libxmlParserOption.swift in Sources */,
+				BED32F761BDFC8F1002598E2 /* Kanna.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE49CEE21BDFC338009EDFF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE49CEE31BDFC338009EDFF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE49CEE71BDFC338009EDFF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE49CEE81BDFC338009EDFF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE49CEEB1BDFC338009EDFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE49CEEC1BDFC338009EDFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE49CEEE1BDFC338009EDFF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Dictum Mobilis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willthodges.Dictum-Mobilis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dictum Mobilis/Dictum Mobilis-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE49CEEF1BDFC338009EDFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = "Dictum Mobilis/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.willthodges.Dictum-Mobilis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Dictum Mobilis/Dictum Mobilis-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE49CED61BDFC338009EDFF3 /* Build configuration list for PBXProject "Dictum Mobilis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE49CEEB1BDFC338009EDFF3 /* Debug */,
+				BE49CEEC1BDFC338009EDFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE49CEED1BDFC338009EDFF3 /* Build configuration list for PBXNativeTarget "Dictum Mobilis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE49CEEE1BDFC338009EDFF3 /* Debug */,
+				BE49CEEF1BDFC338009EDFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE49CED31BDFC338009EDFF3 /* Project object */;
+}
