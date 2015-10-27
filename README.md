@@ -9,4 +9,9 @@ Requirements
 -------------
 
 iOS 9.0+
+
 XCode 7+
+
+Contributors
+-----------
+[hodgeswt (GitHub)](https://github.com/hodgeswt), [web](https://hodgeswt.github.io)
