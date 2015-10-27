@@ -36,12 +36,12 @@ class ViewController: UIViewController {
         let url = NSURL(string: LATENGURL + latEng.text!)
         latEng.text! = ""
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
-            if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) {
-                // Search for nodes by CSS
+            if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
                 for info in doc.css("pre") {
                     let inf = info.text!
-                    self.output!.text! = inf
-                    print(inf)
+                    dispatch_async(dispatch_get_main_queue(), {
+                        self.output!.text! = inf
+                    })
                 }
             }
         }
@@ -52,11 +52,11 @@ class ViewController: UIViewController {
         engLat.text! = ""
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
             if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) {
-                // Search for nodes by CSS
                 for info in doc.css("pre") {
                     let inf = info.text!
-                    self.output!.text! = inf
-                    print(inf)
+                    dispatch_async(dispatch_get_main_queue(), { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
+                        self.output!.text! = inf
+                    })
                 }
             }
         }
