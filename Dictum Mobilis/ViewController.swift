@@ -39,7 +39,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func latEngGo(sender: AnyObject) {
-        let url = NSURL(string: LATENGURL + latEng.text!)
+        let txt = latEng.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet()).stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+        let url = NSURL(string: LATENGURL + txt!)
         latEng.text! = ""
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
             if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
@@ -55,7 +56,8 @@ class ViewController: UIViewController {
         task.resume()
     }
     @IBAction func engLatGo(sender: AnyObject) {
-        let url = NSURL(string: ENGLATURL + engLat.text!)
+        let txt = engLat.text!.stringByTrimmingCharactersInSet(NSCharacterSet.whitespaceCharacterSet()).stringByAddingPercentEncodingWithAllowedCharacters(.URLHostAllowedCharacterSet())
+        let url = NSURL(string: ENGLATURL + txt!)
         engLat.text! = ""
         let task = NSURLSession.sharedSession().dataTaskWithURL(url!) {(data, response, error) in
             if let doc = HTML(html: data!, encoding: NSUTF8StringEncoding) { // THANKS FOR SOLVING THIS, https://www.reddit.com/user/Sh3z
